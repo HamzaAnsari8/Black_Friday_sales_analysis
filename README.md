@@ -87,12 +87,15 @@ Utilities: warnings, os, pickle
 How to Run the Notebook
 Prerequisites
 Ensure you have Python 3.8+ installed on your system.
+
 Step 1: Clone the Repository
 bashgit clone <repository-url>
 cd black-friday-analysis
+
 Step 2: Create Virtual Environment (Recommended)
 bashpython -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
+
 Step 3: Install Dependencies
 bashpip install pandas numpy matplotlib seaborn scikit-learn xgboost jupyter
 Or use the requirements file:
